@@ -18,6 +18,9 @@
 		5C2F54572B3D876F0090F301 /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54562B3D876F0090F301 /* LoginInfo.swift */; };
 		5C2F545A2B3D879F0090F301 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54592B3D879F0090F301 /* LoginView.swift */; };
 		5C2F545D2B3D88940090F301 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F545C2B3D88940090F301 /* LoginViewModel.swift */; };
+		5C2F54612B3D8BE00090F301 /* SignUpInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54602B3D8BE00090F301 /* SignUpInfo.swift */; };
+		5C2F54632B3D8C060090F301 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54622B3D8C060090F301 /* SignUpView.swift */; };
+		5C2F54652B3D8C470090F301 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54642B3D8C470090F301 /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		5C2F54562B3D876F0090F301 /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
 		5C2F54592B3D879F0090F301 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5C2F545C2B3D88940090F301 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5C2F54602B3D8BE00090F301 /* SignUpInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInfo.swift; sourceTree = "<group>"; };
+		5C2F54622B3D8C060090F301 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5C2F54642B3D8C470090F301 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +111,8 @@
 				5C2F54292B3D87440090F301 /* MyLiberationDiaryDemoApp.swift */,
 				5C2F542B2B3D87440090F301 /* ContentView.swift */,
 				5C2F542D2B3D87440090F301 /* Item.swift */,
-				5C2F545B2B3D88790090F301 /* ViewModel */,
 				5C2F54582B3D87930090F301 /* View */,
+				5C2F545B2B3D88790090F301 /* ViewModel */,
 				5C2F54552B3D87610090F301 /* Model */,
 				5C2F542F2B3D87450090F301 /* Assets.xcassets */,
 				5C2F54312B3D87450090F301 /* Preview Content */,
@@ -143,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				5C2F54562B3D876F0090F301 /* LoginInfo.swift */,
+				5C2F54602B3D8BE00090F301 /* SignUpInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				5C2F54592B3D879F0090F301 /* LoginView.swift */,
+				5C2F54622B3D8C060090F301 /* SignUpView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				5C2F545C2B3D88940090F301 /* LoginViewModel.swift */,
+				5C2F54642B3D8C470090F301 /* SignUpViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -293,9 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2F54612B3D8BE00090F301 /* SignUpInfo.swift in Sources */,
 				5C2F542C2B3D87440090F301 /* ContentView.swift in Sources */,
 				5C2F542E2B3D87440090F301 /* Item.swift in Sources */,
 				5C2F545D2B3D88940090F301 /* LoginViewModel.swift in Sources */,
+				5C2F54652B3D8C470090F301 /* SignUpViewModel.swift in Sources */,
+				5C2F54632B3D8C060090F301 /* SignUpView.swift in Sources */,
 				5C2F542A2B3D87440090F301 /* MyLiberationDiaryDemoApp.swift in Sources */,
 				5C2F545A2B3D879F0090F301 /* LoginView.swift in Sources */,
 				5C2F54572B3D876F0090F301 /* LoginInfo.swift in Sources */,

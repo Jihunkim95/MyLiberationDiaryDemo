@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct SignUpInfo {
+    var name: String = ""
+    var email: String = ""
+    var password: String = ""
+    var confirmPassword: String = ""
+}

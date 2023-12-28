@@ -45,7 +45,9 @@ struct LoginView: View {
                         Alert(title: Text("로그인 오류"), message: Text(LoginVM.alertMessage), dismissButton: .default(Text("확인")))
 
                     }
-                    
+                    //NavigationLink에서 value로 NavigationItem.signUp을 전달하고
+                    //navigationDestination(for:content:) 모디파이어를 사용하여 각 대상에 대한 뷰를 제공
+                    //이렇게 하면 각 네비게이션 항목에 대한 뷰를 동적으로 결정
                     NavigationLink(value: NavigationItem.signUp) {
                          Button {
                              navigationPath.append(NavigationItem.signUp)

@@ -15,6 +15,9 @@
 		5C2F543D2B3D87450090F301 /* MyLiberationDiaryDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F543C2B3D87450090F301 /* MyLiberationDiaryDemoTests.swift */; };
 		5C2F54472B3D87450090F301 /* MyLiberationDiaryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54462B3D87450090F301 /* MyLiberationDiaryDemoUITests.swift */; };
 		5C2F54492B3D87450090F301 /* MyLiberationDiaryDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54482B3D87450090F301 /* MyLiberationDiaryDemoUITestsLaunchTests.swift */; };
+		5C2F54572B3D876F0090F301 /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54562B3D876F0090F301 /* LoginInfo.swift */; };
+		5C2F545A2B3D879F0090F301 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F54592B3D879F0090F301 /* LoginView.swift */; };
+		5C2F545D2B3D88940090F301 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F545C2B3D88940090F301 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		5C2F54422B3D87450090F301 /* MyLiberationDiaryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyLiberationDiaryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2F54462B3D87450090F301 /* MyLiberationDiaryDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiberationDiaryDemoUITests.swift; sourceTree = "<group>"; };
 		5C2F54482B3D87450090F301 /* MyLiberationDiaryDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiberationDiaryDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C2F54562B3D876F0090F301 /* LoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
+		5C2F54592B3D879F0090F301 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5C2F545C2B3D88940090F301 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 				5C2F54292B3D87440090F301 /* MyLiberationDiaryDemoApp.swift */,
 				5C2F542B2B3D87440090F301 /* ContentView.swift */,
 				5C2F542D2B3D87440090F301 /* Item.swift */,
+				5C2F545B2B3D88790090F301 /* ViewModel */,
+				5C2F54582B3D87930090F301 /* View */,
+				5C2F54552B3D87610090F301 /* Model */,
 				5C2F542F2B3D87450090F301 /* Assets.xcassets */,
 				5C2F54312B3D87450090F301 /* Preview Content */,
 			);
@@ -128,6 +137,30 @@
 				5C2F54482B3D87450090F301 /* MyLiberationDiaryDemoUITestsLaunchTests.swift */,
 			);
 			path = MyLiberationDiaryDemoUITests;
+			sourceTree = "<group>";
+		};
+		5C2F54552B3D87610090F301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F54562B3D876F0090F301 /* LoginInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C2F54582B3D87930090F301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F54592B3D879F0090F301 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C2F545B2B3D88790090F301 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5C2F545C2B3D88940090F301 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +295,10 @@
 			files = (
 				5C2F542C2B3D87440090F301 /* ContentView.swift in Sources */,
 				5C2F542E2B3D87440090F301 /* Item.swift in Sources */,
+				5C2F545D2B3D88940090F301 /* LoginViewModel.swift in Sources */,
 				5C2F542A2B3D87440090F301 /* MyLiberationDiaryDemoApp.swift in Sources */,
+				5C2F545A2B3D879F0090F301 /* LoginView.swift in Sources */,
+				5C2F54572B3D876F0090F301 /* LoginInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
